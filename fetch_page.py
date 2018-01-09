@@ -50,5 +50,7 @@ for x in fp:
 #Deleting the fetched content from the file.
 system("rm -rf web_page")
 
+fp2.close()
+
 #Starting youtube-dl to download all the videos listed in the file.
-system("youtube-dl -a Videos_List")
+system("youtube-dl -a Videos_List ")
